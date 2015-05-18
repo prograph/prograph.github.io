@@ -1,0 +1,205 @@
+@font-face {
+  font-family: "myFirstFont";
+  src: local("Segoe UI Light"), url(https://themes.googleusercontent.com/static/fonts/opensans/v8/K88pR3goAWT7BTt32Z01mz8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+body{ font-family: "myFirstFont"; background: url(bg.png); background-size: 100%; color: white; padding:23px; height: 90%; cursor: default;
+} 
+div{
+	font-family: "myFirstFont"; color: white;
+}
+.start{ font-family: "myFirstFont"; text-decoration: none; font-size: 60; color: white; }
+.userstart{ font-family: "myFirstFont"; text-decoration: none; font-size: 35; color: white; }
+.userphoto{
+	margin-right: 20px;
+	margin-left: 5px;
+	padding-top: 2px;
+}
+.pagi{ width:100%; height:auto; } 
+.linha{ width:100%; padding:3px; display:table; }
+
+.tile{
+	height: 119px;
+	width: 119px;/*x1.19*/
+	float: left;
+	margin: 0px 5px 0px 0;/*x2 yg tengah*/
+	padding: 3px;
+}
+
+.tile:hover{
+	box-shadow: 0px 0px 0px 4px #585858; /*border didalem div*/
+}
+
+.abc:hover{
+	box-shadow: 0px 0px 0px 4px #585858; /*border didalem div*/
+}
+
+.tileLargo{
+	width: 249.9px; /*x1.19*/
+}
+
+.tileLargo:hover{
+	box-shadow: 0px 0px 0px 4px #585858;/*border didalem div*/
+}
+
+.amarelo{
+	background: #DAA520;
+}
+
+.vermelho{
+	background: #CD0000;
+}
+
+.azul{
+	background: #4682B4;
+}
+
+.verde{
+	background-color: #2E8B57;
+}
+/*-----------------------------------*/
+/*.kiri1atas{
+	/*Logo*/
+/*	background-color: red;
+
+}*/
+.kiri2atas{
+	/*Mail*/
+	background-color: #0675c8;
+	background-image: url(mail.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.tengahatas{
+	/*Video*/
+
+	background-color: #ae2043;
+	background-image: url(video.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.kanan1atas{
+	/*Store*/
+
+	background-color: #00a500;
+}
+.kanan2atas{
+	/*Ads*/
+
+	background-color: gray;
+	background-image: url(og.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	/*margin-left: 45px;*/
+}
+.kiri2tengah{
+	/*Graphics*/
+
+	background-color: #180052;
+	background-image: url(nvidiaati.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.judul{
+	padding-top: 20px;
+	padding-left: 12px;
+	font-family: "myFirstFont";
+	text-decoration: none;
+	font-size: 13px;
+}
+.kiri1tengah{
+	/*Processor*/
+
+	background-color: #575b5a;
+	background-image: url(intelamd.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.tengahtengah{
+	/*Maps*/
+
+	background-color: #900898;
+	background-image: url(maps.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.kanan1tengah{
+	/*ads*/
+
+	background-color: gray;
+	background-image: url(og.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.kanan2tengah{
+	/*Ads*/
+
+	background-color: gray;
+	background-image: url(og.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	/*margin-left: 45px;*/
+}
+.kiri1bawah{
+	/*News*/
+
+	background-color: #ae2043;
+	background-image: url(news.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.kiri2bawah{
+	/*Feedback*/
+
+	background-color: #2d76ed;
+	background-image: url(feedback.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.tengahbawah{
+	/*Games*/
+
+	background-color: #068c06;
+	background-image: url(games.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.kanan1bawah{
+	/*Ads*/
+
+	background-color: gray;
+}
+.kanan2bawah{
+	/*Ads*/
+
+	background-color: gray;
+	/*margin-left: 45px;*/
+}
+/*--------------------------------------------*/
+/*.tile {
+  width: 150px;
+  height: 150px;
+  display: block;
+  float: left;
+  margin: 5px;
+  background-color: #eeeeee;
+  box-shadow: inset 0 0 1px #FFFFCC;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}*/
+.tile-content .live-slide {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: none;
+  overflow: hidden;
+}
+.tile-content .live-slide:nth-child(1) {
+  display: block;
+}
