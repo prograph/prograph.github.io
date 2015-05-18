@@ -2,7 +2,7 @@
   font-family: "myFirstFont";
   src: local("Segoe UI Light"), url(https://themes.googleusercontent.com/static/fonts/opensans/v8/K88pR3goAWT7BTt32Z01mz8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
 }
-body{ font-family: "myFirstFont"; background: url(bg1.jpg); background-size: 100%; color: white; padding:23px; height: 90%; cursor: default;
+body{ font-family: "myFirstFont"; background: url(background.jpg); background-size: 100%; color: white; padding:23px; height: 90%; cursor: default;
 } 
 div{
 	font-family: "myFirstFont"; color: white;
